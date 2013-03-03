@@ -1,0 +1,97 @@
+
+
+/**   固定样式    */
+
+/*自定义icon图标*/
+/*.nav-icons .ui-btn .ui-btn-inner { padding-top: 5px !important; }*/
+/*.nav-icons .ui-btn .ui-icon { width: 40px!important; height: 40px!important; margin-left: -15px !important; box-shadow: none!important; -moz-box-shadow: none!important; -webkit-box-shadow: none!important; -webkit-border-radius: 0 !important; border-radius: 0 !important; }*/
+#icon1 .ui-icon { background: url(img/3.png) no-repeat 100% 100% ;  background-size: 100% 100%}
+#icon-map .ui-icon { background: url(img/5.png) no-repeat 100% 100% ;  background-size: 100% 100%}
+#icon3 .ui-icon { background: url(img/4.png) no-repeat 100% 100% ;  background-size: 100% 100%}
+#icon-login .ui-icon { background: url(img/login.png) no-repeat 100% 100% ;  background-size: 100% 100%}
+
+.logo img{
+	display: inline-block;
+	position: absolute;
+	left: 5px;
+	top:5px;
+	width: 128px;
+	height: 30px;
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	}/*logo*/
+
+	.imgbtn-login{
+		display:inline-block;
+		text: none;
+	}
+
+
+	.imgbtn-login img{
+		width:50px; 
+		height:30px; 
+		margin:0 auto; 
+		background-size:100% 100%;
+	}
+
+	.ui-listview{
+		margin-top: 5px !important;
+		margin-bottom: 5px !important;
+	}
+
+	.ui-content{
+		padding-top: 5px !important;
+	}
+	.ui-listview li img { display: block; width: 100%; height: 100%;}
+
+	.banner { list-style: none; padding: 0; margin: 5px -15px; overflow: hidden; }
+	.banner:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+	.banner li {width: 100%;  }
+	.banner li a { display: block; margin: 0; border: 1px solid #1E1E1E; text-decoration: none; }
+	.banner li img { display: block; width: 100%; height: 100px; }
+
+	.item-header{
+		text-align:  center;
+	}
+	.item-header h2{
+		margin: 5px;
+	}
+	.item-header p, .subcontent{
+		font-size: 14px;
+		color: #999999;
+		margin: 5px;
+	}
+
+	.shop-info{ padding: 0; margin: 0; overflow: hidden;}
+	.shop-info a{ display: block; margin: 5px; border: 1px solid #1E1E1E; text-decoration: none; }
+	.shop-info a img{ display: block; width: 100%; height: 100px; }
+	.shop-info p{font-size: 14px; font-weight: bold; margin-left: 10px; margin-top: 0;}
+
+
+	.card{ padding: 0; margin: 0; overflow: hidden; text-align: center;}
+	.card a{ display: inline-block; margin: 5px; padding: 10px;border: 1px solid #CCCCCC; text-decoration: none; }
+	.card img{ display: block; width: 150px; height: 150px; }
+
+
+	.amount{
+		color: #FF0000;
+	}
+
+	.gallery { list-style: none; padding: 0; margin: 0; overflow: hidden;}
+	.gallery:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+	.gallery li { float: left; width: 33.33333333%; }
+	.gallery li a { display: block; margin: 5px; border: 0px solid #3c3c3c; text-decoration: none; }
+	.gallery li img { display: block; width: 100%; height: 100px; }
+	.gallery li a h3 {font-size: 12px ;margin: 0; text-align: center; color: #666666;white-space:nowrap; text-overflow : hidden;overflow:hidden}
+	.gallery li a p  {font-size: 10px; font-weight: normal; margin: 0; text-align: center; color: #999999;white-space:nowrap; text-overflow : hidden;overflow:hidden}
+
+
+	.image-list { list-style: none; padding: 0; margin: 0; overflow: hidden;}
+	.image-list:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+	.image-list li {width: 100%;  }
+	.image-list li a { display: block; margin: 5px; border-bottom: 1px solid #cccccc; text-decoration: none; }
+	.image-list li img { display: block; width: 100%; height: auto; }
+	.image-list li a h3 {font-size: 12px ;margin: 0; text-align: center; color: #666666;white-space:nowrap; text-overflow : hidden;overflow:hidden;}
+	.image-list li a p {font-size: 6px !important ;margin: 0; text-align: center; color: #999999;white-space:nowrap; text-overflow : hidden;overflow:hidden;}
+
+/*  --/自定义导航	

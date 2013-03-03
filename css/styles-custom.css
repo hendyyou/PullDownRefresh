@@ -1,0 +1,25 @@
+
+.ui-header{
+	background: #383838 url(#) no-repeat;/*Title背景*/
+	background-size:100% 100%;
+}
+
+.ui-bar-a{
+	color: #FFFFFF !important;/*title字体颜色*/
+}
+
+.ui-page{
+	background: #FFFFFF url(#) no-repeat;/*Page背景*/
+	background-size:100% 100%;
+}
+
+/*  自定义导航*/
+.navbar a{
+	background: #CDB38B url(#) no-repeat; 
+	background-size:100% 100%;
+}
+
+.ui-btn-active{
+	background: #CCCCCC url(#) no-repeat !important; /*当前活动状态导航栏栏位的背景*/
+	background-size:100% 100%;
+}
